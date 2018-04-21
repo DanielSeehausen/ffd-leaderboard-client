@@ -59,7 +59,7 @@ class App extends Component {
 
   x() {
     setInterval(() => {
-      fetch('http://localhost:3000/getScores?id=0', {
+      fetch('http://mayisgr8.win/getScores?id=0', {
         method: 'GET',
       })
       .then(response => response.json())
